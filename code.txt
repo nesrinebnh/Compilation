@@ -1,0 +1,24 @@
+prog 
+DEC
+	Uint x,b; 
+	Ufloat z;
+	define Uint t = 7, k = 15;
+	define Ufloat h = 0.555;
+	Uint y,a,j,m;
+	
+INST
+	IF( (t+1 < 2) & (t>55) )
+				IF (a>2) 
+					FOR( j=0; ((j<10)&(j>m)) ; j=j+1)
+						FOR( j=0; ((j<10)&(j>m)) ; j=j+1)
+							z = 0.55;
+						ENDFOR
+					ENDFOR
+				ELSE  j = j+2; 
+				ENDIF
+	ELSE  j=a+1; 
+	ENDIF
+	
+		<< Ceci c'est 1 commentaire! >>
+	
+FIN
